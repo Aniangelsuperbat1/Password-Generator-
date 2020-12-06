@@ -2,7 +2,7 @@ import random
 
 capital = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-lower = "abcdefghijklmnopqrstuvwxyz"
+lower = capital.lower
 
 nums = "0123456789"
 
