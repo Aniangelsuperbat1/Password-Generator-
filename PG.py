@@ -21,3 +21,8 @@ if numbers:
 if SP:
     all += special
 
+length = 15
+
+for i in range(10):
+    password = "".join(random.sample(all, length))
+    print(password)
